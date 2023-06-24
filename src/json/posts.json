@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "titulo": "Lista de compras",
+        "link": "https://lista-de-compras-wine.vercel.app/",
+        "tecnologias": "HTML, CSS, JavaScript."
+    },
+    {
+        "id": 2,
+        "titulo": "Laon Streaming",
+        "link": "https://laon-recruiting-frontend.vercel.app/",
+        "tecnologias": "ReactJs."
+    },
+    {
+        "id": 3,
+        "titulo": "Jogo Número secreto",
+        "link": "https://jogo-numero-secreto-rust-alpha.vercel.app/",
+        "tecnologias": "HTML, CSS, JavaScript."
+    },
+    {
+        "id": 4,
+        "titulo": "Alura Books",
+        "link": "https://alura-books-one-xi.vercel.app/",
+        "tecnologias": "HTML, CSS, JavaScript."
+    },
+    {
+        "id": 5,
+        "titulo": "Alura Midi",
+        "link": "https://alura-midi-beta.vercel.app/",
+        "tecnologias": "HTML, CSS, JavaScript."
+    }
+]

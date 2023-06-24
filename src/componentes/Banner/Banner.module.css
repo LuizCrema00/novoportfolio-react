@@ -1,0 +1,220 @@
+.banner {
+    padding: 10rem 7.5rem 6.25rem;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+}
+
+.paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.redes {
+    display: flex;
+    cursor: pointer;
+    gap: 2rem;
+}
+
+.link {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.link[href="https://www.linkedin.com/in/luiz-guilherme-crema-18410438/"]:hover {
+    background-color: #00BFFF;
+}
+
+.link[href="https://github.com/LuizCrema00"]:hover {
+    background-color: #1C1C1C;
+}
+  
+  .link[download="CV_Luiz_Guilherme_Crema.pdf"]:hover {
+    background-color: #483D8B;
+}
+
+.imagens {
+    position: relative;
+    height: 406px;
+}
+
+.imagens > .minhaFoto {
+    position: absolute;
+    right: 12vw;
+    bottom: 2.2vw;
+    width: 15vw;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.imagens > .circuloColorido {
+    position: absolute;
+    right: 7vw;
+    bottom: 2.2vw;
+    width: 25vw;
+    z-index: 0;
+}
+
+@media (max-width: 1159px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+
+    .imagens {
+        height: 370px;
+    }
+
+    .imagens > .minhaFoto {
+        width: 20vw;
+        right: 17vw;
+    }
+
+    .imagens > .circuloColorido {
+        right: 10vw;
+        width: 35vw;
+    }
+
+    .link {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+    .imagens {
+        height: 307px;
+    }
+
+    .imagens > .minhaFoto, .imagens > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 170px;
+        right: 27vw;
+        transform: translate(5rem, 0px);
+    }
+
+    .imagens > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+
+    .link {
+        padding: 3px;
+    }
+}
+
+@media (max-width: 598px) {
+    .imagens {
+        height: 307px;
+    }
+
+    .imagens > .minhaFoto, .imagens > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 170px;
+        right: 35vw;
+        transform: translate(5rem, 0px);
+    }
+
+    .imagens > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+}
+
+@media (max-width: 480px) {
+    .imagens {
+        height: 307px;
+    }
+
+    .imagens > .minhaFoto, .imagens > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 170px;
+        right: 40vw;
+        transform: translate(5rem, 0px);
+    }
+
+    .imagens > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+
+    .paragrafo {
+        text-align: center;
+    }
+
+    
+    .link {
+        padding: 5px;
+    }
+    
+}
+
+@media (max-width: 390px) {
+    .imagens {
+        height: 307px;
+    }
+
+    .imagens > .minhaFoto, .imagens > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 170px;
+        right: 60vw;
+        transform: translate(5rem, 0px);
+    }
+
+    .imagens > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+}
